@@ -1,0 +1,46 @@
+INSERT INTO departments (name) VALUES 
+('Engineering'),
+('Sales'),
+('HR');
+
+INSERT INTO roles (title, salary, department_id) VALUES 
+('Software Engineer', 90000, 1),
+('Senior Software Engineer', 110000, 1),
+('Sales Representative', 60000, 2),
+('Sales Manager', 80000, 2),
+('HR Coordinator', 50000, 3),
+('HR Manager', 70000, 3),
+('Product Manager', 95000, 1),
+('Engineering Manager', 120000, 1);
+
+INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES 
+('Alice', 'Johnson', 1, 8),
+('Bob', 'Smith', 2, 8),
+('Charlie', 'Brown', 3, NULL),
+('Diana', 'Prince', 4, 3),
+('Eli', 'Stone', 5, 6),
+('Fiona', 'Lynch', 6, NULL),
+('George', 'Taylor', 7, 8),
+('Hannah', 'Wade', 3, 4),
+('Ian', 'Stewart', 1, 8),
+('Jane', 'Doe', 5, 6),
+('Kevin', 'Nguyen', 1, 8),
+('Lena', 'White', 2, 8),
+('Mark', 'Lee', 1, 8),
+('Nina', 'Khan', 3, 4),
+('Oscar', 'Wilde', 5, 6),
+('Paula', 'Jones', 1, 8),
+('Quincy', 'Adams', 3, NULL),
+('Rachel', 'Williams', 4, 3),
+('Sam', 'Thompson', 1, 8),
+('Tina', 'Moore', 6, NULL),
+('Ulysses', 'Grant', 7, 8),
+('Vera', 'Black', 1, 8),
+('Walter', 'Green', 3, NULL),
+('Xander', 'Hall', 5, 6),
+('Yara', 'Bennett', 3, 4),
+('Zoe', 'Carson', 5, 6),
+('Arthur', 'Morgan', 1, 8),
+('Bella', 'Robinson', 2, 8),
+('Chris', 'Evans', 3, 4),
+('Danielle', 'King', 4, 3);
